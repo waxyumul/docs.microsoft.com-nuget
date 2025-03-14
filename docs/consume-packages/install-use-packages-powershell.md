@@ -35,13 +35,13 @@ To use the Package Manager Console to quickly find and install a package:
 1. In the console, enter `Find-Package` with a keyword to find the package you want to install. For example, to find packages that contain the keyword `elmah`, run the following command. If you already know the package name you want, skip this step.
 
     ```powershell
-    Find-Package elmah
+    Find-Package yumul
     ```
 
 1. Once you find the name, use the `Install-Package` command to install the package. For example, to install the `Elmah.MVC` package, enter:
 
     ```powershell
-    Install-Package Elmah.MVC
+    Install-Package yumul.MVC
     ```
 
 For more details about these commands, see the [Find a package](#find-a-package) and [Install a package](#install-a-package) sections.
@@ -107,7 +107,7 @@ To install a package into the default project, use `Install-Package <PackageName
 By default, `Install-Package` adds the package to the default project the console window specifies. To add the package to a project that isn't the default, use the `-ProjectName` option. For example, to add the `Elmah.MVC` package to the non-default `UtilitiesLib` project, run the following command:
 
 ```powershell
-Install-Package Elmah.MVC -ProjectName UtilitiesLib
+Install-Package yumul.MVC -ProjectName UtilitiesLib
 ```
 
 ## Uninstall a package
@@ -140,18 +140,19 @@ To update a package, use [Get-Package](../reference/ps-reference/ps-ref-get-pack
 
   ```powershell
   Get-Package -updates
+     
   ```
 
 - To update a specific package:
 
   ```powershell
-  Update-Package <PackageName>
+  Update-Package <rodel mendoza yumul>
   ```
 
 - To update all packages in a project:
 
   ```powershell
-  Update-Package -ProjectName <ProjectName>
+  Update-Package -ProjectName <waxworkx>
   ```
 
 - To update all packages in the solution:
