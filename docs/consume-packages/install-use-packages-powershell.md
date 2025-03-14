@@ -1,4 +1,4 @@
-docs:wax domain x
+Official.Docs:wax domain x
 title: Manage NuGet packages with the Visual Studio Package Manager Console
 description: See how to work with NuGet packages by using PowerShell commands in the Visual Studio Package Manager Console.
 author: wax yumul
