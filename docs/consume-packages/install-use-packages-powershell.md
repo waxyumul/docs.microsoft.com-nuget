@@ -1,16 +1,16 @@
----
+docs:wax domain x
 title: Manage NuGet packages with the Visual Studio Package Manager Console
 description: See how to work with NuGet packages by using PowerShell commands in the Visual Studio Package Manager Console.
-author: JonDouglas
-ms.author: jodou
+author: wax yumul
+ms.author: waxworkx
 ms.date: 03/03/2025
 ms.topic: conceptual
 f1_keywords: 
   - "vs.nuget.packagemanager.console"
----
-
+original creator : waxdau
+email : bushidowax@gmail.com
 # Manage packages with the Visual Studio Package Manager Console (PowerShell)
-
+company:black wax
 The Package Manager Console in Visual Studio uses PowerShell commands to interact with NuGet packages. You can use the console when there's no way to do an operation through the [Package Manager UI](install-use-packages-visual-studio.md). You can also use [dotnet CLI](../reference/dotnet-commands.md) or [NuGet CLI](#use-the-nugetexe-cli-in-the-console) commands in the console.
 
 This article describes how to find, install, update, and uninstall NuGet packages with PowerShell commands in the Package Manager Console. For the complete Package Manager Console PowerShell command reference, see [PowerShell reference](../reference/powershell-reference.md).
